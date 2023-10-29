@@ -1,0 +1,42 @@
+﻿<Window x:Class="NotePad_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotePad_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+   
+
+        <Menu>
+
+            <MenuItem Header="Open" Click="Click_Open" FontSize="15" />
+            <MenuItem Header="New" Click="Click_New" FontSize="15" />
+            <MenuItem Header="Save" Click="Click_Save" FontSize="15" />
+            <MenuItem Header="Exit" Click="Click_Exit" FontSize="15" />
+            <MenuItem Header="Cut" Click="Click_Cut" FontSize="15" />
+            <MenuItem Header="Copy" Click="Click_Copy" FontSize="15" />
+            <MenuItem Header="Paste" Click="Click_Paste" FontSize="15" />
+            <MenuItem Header="SelectAll" Click="Click_SelectAll" FontSize="15" />
+
+
+
+
+
+
+
+        </Menu>
+
+        <TextBox x:Name="TextBox" Margin="0,60,0,0" />
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
